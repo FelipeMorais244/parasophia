@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F0EA;
+    color: #a40b54;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    background-image: url('arrow-through-heart.svg');
+    background-size: contain;
+    background-position: center;
+
+}
+
+audio{
+    background-color: #c9729f;
+    border: 2px #c9729f;
+    border-radius: 5px;
+    padding: 2rem,
+}
+
+header {
+    padding: 2rem;
+    background-color: #410936;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+img {
+    width: 25rem;
+    border-radius: 5px;
+}
